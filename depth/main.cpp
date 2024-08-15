@@ -158,6 +158,8 @@ int main(){
   }
   //enable depth test
   glEnable(GL_DEPTH_TEST);
+  //glDepthFunc(GL_ALWAYS);
+  glDepthFunc(GL_LESS);
   //inside window mousr
   glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
   
